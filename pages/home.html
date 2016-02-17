@@ -1,2 +1,17 @@
 <div  style="background-color: #46B0BA; color: #FFFFFF" class="jumbotron text-center">
-    <h1>14ers of Colorado</h1>
+    <h1>14ers of Colorado</h1></div>
+<div class="text-center">
+<button type="submit"><a href="pages/weather.html">Weather</a></button>
+<button type="submit"><a href="pages/map.html">Map</a></button>
+</div>
+<br>
+<div class="text-center">
+    <br>
+<div class="panel" ng-repeat="mountain in hom">
+
+    <h4 class="hidden-md hidden-sm hidden-xs">{{mountain.name}}</h4>
+    <h4 class="hidden-lg hidden-md hidden-xs">{{mountain.height}}</h4>
+    <img class="hidden-sm hidden-xs" ng-src="{{mountain.image}}">
+    <br>
+    </div>
+</div>
