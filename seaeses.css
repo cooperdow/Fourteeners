@@ -1,1 +1,25 @@
-css
+#nav
+{
+    background-color: #46B0BA;
+}
+
+.navbar-inverse .navbar-nav>li>a 
+{
+    color: #FFFFFF;
+}
+
+#home1
+{
+    color: #FFFFFF;   
+}
+
+#home2
+{
+    color: #FFFFFF;
+}
+
+footer
+{
+    background-color: #46B0BA; 
+    color: #FFFFFF;
+}
