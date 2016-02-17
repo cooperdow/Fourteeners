@@ -138,6 +138,7 @@ mountain.controller('tenmileController', function ($scope)
         {
           name: "Mt. Quandry",
           height: "14,265 ft",
+            local: "39.3972°N 106.1064°W, Co Rd 850, Breckenridge, CO 80424",
           image: "images/quandry.jpg"
         },
         ];
@@ -177,76 +178,91 @@ mountain.controller('sawatchController', function ($scope)
         {
           name: "Mt. ELbert",
           height: "14,433 ft",
+          local: "39.1178°N 106.4454°W, Black Cloud Trail, Buena Vista, CO 81211",
           image: "images/elbert.jpg"
         },
        {
           name: "Mt. Massive",
           height: "14,421 ft",
+          local: "39.1875°N 106.4757°W, Mt. Massive Trail, Leadville, CO 80461",
           image: "images/massive.jpg"
         },
         {
           name: "Mt. Harvard",
           height: "14,420 ft",
+          local: "38.9244°N 106.3207°W, Colorado Trail, Buena Vista, CO 81211", 
           image: "images/harvard.jpg"
         },
         {
           name: "La Plata Peak",
           height: "14,336 ft",
+            local: "39.0294°N 106.4729°W, La Plata Peak Trail, Buena Vista, CO 81211",
           image: "images/laplata.jpg"
         },
         {
           name: "Mt. Antero",
           height: "14,269 ft",
+            local: "38.6741°N 106.2462°W, Co Rd 277, Nathrop, CO 81236",
           image: "images/antero.jpg"
         },
        {
           name: "Mt. Shavano",
           height: "14,269 ft",
+           local: "38.6193°N 106.2394°W, Forest Rd 240, Salida, CO 81201",
           image: "images/shavano.jpg"
         },
         {
           name: "Mt. Princeton (Center)",
           height: "14,197 ft",
+            local: "38.7492°N 106.2424°W, Forest Rd 322A, Nathrop, CO 81236",
           image: "images/princeton.jpg"
         },
         {
           name: "Mt. Belford",
           height: "14,197 ft",
+            local: "38.9606°N 106.3608°W, Unnamed Rd, Almont, CO 81210",
           image: "images/belford.jpg"
         },
         {
           name: "Mt. Yale (Center)",
           height: "14,196 ft",
+            local: "38.8442°N 106.3138°W, Colorado Trail, Buena Vista, CO 81211",
           image: "images/yale.jpg"
         },
        {
           name: "Tabeguache Peak (right) Mt. Shavano (left)",
           height: "14,155 ft",
+           local: "38.6254°N 106.2509°W, Forest Rd 240, Salida, CO 81201",
           image: "images/tabeguache.jpg"
         },
         {
           name: "Mt. Oxford",
           height: "14,153 ft",
+            local: "38.9648°N 106.3388°W, Colorado Trail, Buena Vista, CO 81211",
           image: "images/oxford.jpg"
         },
         {
           name: "Mt. Columbia",
           height: "14,073 ft",
+            local: "38.9038°N 106.2975°W, Colorado Trail, Buena Vista, CO 81211", 
           image: "images/columbia.jpg"
         },
         {
           name: "Missouri Mountain",
           height: "14,067 ft",
+            local: "38.9477°N 106.3786°W, Unnamed Rd, Almont, CO 81210",
           image: "images/missouri.jpg"
         },
        {
           name: "Mountain of the Holy Cross",
           height: "14,005 ft",
+           local: "39.4668°N 106.4817°W, McCoy Park, Avon, CO 81620",
           image: "images/holycross.jpg"
         },
         {
           name: "Huron Peak (Center)",
           height: "14,003 ft",
+            local: "38.9455°N 106.4380°W, Unnamed Rd, Almont, CO 81210",
           image: "images/huron.jpg"
         },
         ];
