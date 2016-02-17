@@ -97,7 +97,14 @@ mountain.controller('forecastController', ['$scope', '$http', function($scope, $
 
 mountain.controller("homeController", function($scope) 
     {
-
+    $scope.hom=
+        [
+        {
+        name: "Mountain Cabin in Breckenridge",
+        height: "Moon cricket",
+        image: "images/cabin.jpg",
+        },
+        ];
 	});
 
 mountain.controller('frontController', function ($scope)
